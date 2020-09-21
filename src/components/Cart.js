@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { cartContext } from "../Global/cartContext"
+import {Link} from "react-router-dom"
 
 const Cart = (props) => {
 
@@ -27,6 +28,8 @@ const Cart = (props) => {
                             <i className="fas fa-trash-alt"></i></button> */}
                     </div>
                 )) : 'Yourr Cart is currently empty!'}
+                <br/>
+                <button className="goBack"><Link to="/">Go Back</Link></button>
 
             </div>
        

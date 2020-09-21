@@ -554,3 +554,12 @@ header h1 {
 .banner{
   padding: 50px ;
 }
+
+.goBack{
+  color: #E65100;
+  size: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10%;
+}
