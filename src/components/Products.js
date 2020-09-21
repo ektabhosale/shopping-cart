@@ -3,7 +3,7 @@ import { productContext } from "../Global/productContext"
 import {cartContext} from "../Global/cartContext"
 import Banner from "./Banner"
 import Sidebar from '../Sidebar'
-import Topnav from '../Topnav'
+
 const Products = () => {
    const {products} = useContext(productContext);
    const {dispatch} = useContext(cartContext);
@@ -33,7 +33,7 @@ const Products = () => {
             </div>
              <div >
              <div className="proButton" onClick={() => dispatch({type: 'ADD_TO_CART', id: product.id, products})}>
-                 <button  >add to cart</button>
+                 <button  >Add to cart</button>
                </div>
             </div>
              

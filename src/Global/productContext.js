@@ -38,44 +38,44 @@ const jewel10="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,f
 const ProductContextProvider = (props) => {
 
     const [products] = useReducer(ProductReducer, [
-        {id: 1, name: 'dress1', price: 40, image: img1, productStatus: 'hot'},
-        {id: 2, name: 'dress2', price: 200, image: img2,productStatus: 'new'},
-        {id: 3, name: 'dress3', price: 300, image: img3,productStatus: 'new'},
-        {id: 4, name: 'dress4', price: 150, image: img4,productStatus: 'new'},
-        {id: 5, name: 'dress5', price: 160, image: img5,productStatus: 'hot'},
-        {id: 6, name: 'dress6', price: 500, image: img6,productStatus: 'new'},
-        {id: 7, name: 'dress7', price: 240, image: img7,productStatus: 'hot'},
-        {id: 8, name: 'dress8', price: 120, image: img8,productStatus: 'new'},
-        {id: 9, name: 'dress9', price: 500, image: img9,productStatus: 'new'},
-        {id: 10, name: 'dress10', price: 240, image: img10,productStatus: 'hot'},
+        {id: 1, name: 'Libbas', price: 40, image: img1, productStatus: 'hot'},
+        {id: 2, name: 'U&F', price: 200, image: img2,productStatus: 'new'},
+        {id: 3, name: 'ParasS', price: 300, image: img3,productStatus: 'new'},
+        {id: 4, name: 'Nash', price: 150, image: img4,productStatus: 'new'},
+        {id: 5, name: 'Tanshi', price: 160, image: img5,productStatus: 'hot'},
+        {id: 6, name: 'Waram', price: 500, image: img6,productStatus: 'new'},
+        {id: 7, name: 'Kaisla', price: 240, image: img7,productStatus: 'hot'},
+        {id: 8, name: 'Nisa', price: 120, image: img8,productStatus: 'new'},
+        {id: 9, name: 'Pranns', price: 500, image: img9,productStatus: 'new'},
+        // {id: 10, name: 'Nokion', price: 240, image: img10,productStatus: 'hot'},
         
       ])
 
       const [shoes] = useReducer(ProductReducer, [
-        {id: 11, name: 'shoe1', price: 40, image: shoes1, productStatus: 'hot'},
-        {id: 12, name: 'shoe2', price: 200, image: shoes2,productStatus: 'new'},
-        {id: 13, name: 'shoe3', price: 300, image: shoes3,productStatus: 'new'},
-        {id: 14, name: 'shoes4', price: 150, image: shoes4,productStatus: 'new'},
-        {id: 15, name: 'shoes5', price: 160, image: shoes5,productStatus: 'hot'},
-        {id: 16, name: 'shoes6', price: 500, image: shoes6,productStatus: 'new'},
-        {id: 17, name: 'shoes7', price: 240, image: shoes7,productStatus: 'hot'},
-        {id: 18, name: 'shoes8', price: 120, image: shoes8,productStatus: 'new'},
-        {id: 19, name: 'shoes9', price: 500, image: shoes9,productStatus: 'new'},
-        {id: 20, name: 'shoes10', price: 240, image: shoes10,productStatus: 'hot'},
+        {id: 11, name: 'HRX', price: 40, image: shoes1, productStatus: 'hot'},
+        {id: 12, name: 'PUMA', price: 200, image: shoes2,productStatus: 'new'},
+        {id: 13, name: 'ASICS', price: 300, image: shoes3,productStatus: 'new'},
+        {id: 14, name: 'NCDF', price: 150, image: shoes4,productStatus: 'new'},
+        {id: 15, name: 'Mode By Red', price: 160, image: shoes5,productStatus: 'hot'},
+        {id: 16, name: 'JKFK', price: 500, image: shoes6,productStatus: 'new'},
+        {id: 17, name: 'LLNM', price: 240, image: shoes7,productStatus: 'hot'},
+        {id: 18, name: 'PARAS', price: 120, image: shoes8,productStatus: 'new'},
+        {id: 19, name: 'SPORT', price: 500, image: shoes9,productStatus: 'new'},
+        // {id: 20, name: 'PLAY', price: 240, image: shoes10,productStatus: 'hot'},
         
       ])
 
       const [jewel] = useReducer(ProductReducer, [
-        {id: 21, name: 'shoe1', price: 40, image: jewel1, productStatus: 'hot'},
-        {id: 22, name: 'shoe2', price: 200, image: jewel2,productStatus: 'new'},
-        {id: 23, name: 'shoe3', price: 300, image: jewel3,productStatus: 'new'},
-        {id: 24, name: 'shoes4', price: 150, image: jewel4,productStatus: 'new'},
-        {id: 25, name: 'shoes5', price: 160, image: jewel5,productStatus: 'hot'},
-        {id: 26, name: 'shoes6', price: 500, image: jewel6,productStatus: 'new'},
-        {id: 27, name: 'shoes7', price: 240, image: jewel7,productStatus: 'hot'},
-        {id: 28, name: 'shoes8', price: 120, image: jewel8,productStatus: 'new'},
-        {id: 29, name: 'shoes9', price: 500, image: jewel9,productStatus: 'new'},
-        {id: 30, name: 'shoes10', price: 240, image: jewel10,productStatus: 'hot'},
+        {id: 21, name: 'Jewel Galaxy', price: 40, image: jewel1, productStatus: 'hot'},
+        {id: 22, name: 'Jewel T', price: 200, image: jewel2,productStatus: 'new'},
+        {id: 23, name: 'Jewel MNs', price: 300, image: jewel3,productStatus: 'new'},
+        {id: 24, name: 'Jewel Para', price: 150, image: jewel4,productStatus: 'new'},
+        {id: 25, name: 'Jewel Tapsi', price: 160, image: jewel5,productStatus: 'hot'},
+        {id: 26, name: 'Jewel Tansh', price: 500, image: jewel6,productStatus: 'new'},
+        {id: 27, name: 'Jewel Vara', price: 240, image: jewel7,productStatus: 'hot'},
+        {id: 28, name: 'Jewel Nash', price: 120, image: jewel8,productStatus: 'new'},
+        {id: 29, name: 'Jewel Simpa', price: 500, image: jewel9,productStatus: 'new'},
+        // {id: 30, name: 'Jewel Nahi', price: 240, image: jewel10,productStatus: 'hot'},
         
       ])
       
