@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import {Products,Jewel} from "./components/Products"
 import Cart from "./components/Cart"
-import shoes from "./components/Shoes"
+import Shoes from "./components/Shoes"
 import ProductContextProvider from "./Global/productContext"
 import CartContextProvider from "./Global/cartContext"
 import Topnav from "./Topnav";
@@ -23,7 +22,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Products} />
           <Route path="/cart" exact component={Cart} />
-          <Route path="/shoes" exact component={shoes} />
+          <Route path="/shoes" exact component={Shoes} />
           <Route path="/jewellery" exact component={Jewel} />
         </Switch>
       </Router>
